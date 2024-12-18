@@ -1,0 +1,20 @@
+---
+layout: base
+title: Home
+---
+
+<div class="introduction">
+  <h1>Ed.</h1>
+  
+  <p>Welcome to Ed. This is a minimal computing theme for textual editors based on minimal computing principles.</p>
+  
+  <h2>Sample texts</h2>
+  
+  <ul class="texts">
+  {%- for text in collections.texts -%}
+    <li>
+      <a href="{{ text.url }}">{{ text.data.title }}</a>
+    </li>
+  {%- endfor -%}
+  </ul>
+</div>

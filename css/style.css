@@ -1,0 +1,88 @@
+/* Ed: the minimal edition theme.
+ * ___________________   
+ * \_   _____/\______ \  
+ *  |    __)_  |    |  \ 
+ *  |        \ |    `   \
+ * /_______  //_______  /
+ *         \/         \/ 
+ * Designed, built, and released under an MIT license by @elotroalex.
+ * Based on the Poole and Lanyon theme by @mdo. 
+ */
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  color: #454545;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #333;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+/* Links */
+a {
+  color: #841212;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+.container {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Navigation */
+nav {
+  padding: 1rem;
+  background: #f8f8f8;
+  border-bottom: 1px solid #eee;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Main content */
+main {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  border-top: 1px solid #eee;
+}

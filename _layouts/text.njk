@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<article class="text">
+  <header>
+    <h1>{{ title }}</h1>
+    {% if author %}<p class="author">{{ author }}</p>{% endif %}
+    {% if editor %}<p class="editor">Edited by {{ editor }}</p>{% endif %}
+  </header>
+
+  {{ content | safe }}
+</article>
