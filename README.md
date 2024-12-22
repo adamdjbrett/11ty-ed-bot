@@ -1,3 +1,7 @@
+# WORK IN PROGRESS
+dont go here. go to the [11ty.dev](https://11ty.dev) homepage and find a starter there.
+Testing out Stackblitz
+
 # 11ty-Ed
 
 A minimal computing theme for textual editors based on minimal computing principles, built with 11ty.
